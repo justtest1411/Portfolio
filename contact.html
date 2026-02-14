@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Me</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#8FAEC2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:950px;
+    background:#E9EEF2;
+    display:flex;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+/* LEFT SIDE */
+.form-section{
+    flex:1;
+    padding:40px;
+}
+
+.form-section h1{
+    font-size:38px;
+    color:#2E4A66;
+    margin-bottom:25px;
+}
+
+.input-box{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:25px;
+    background:#DCE4EA;
+    font-size:15px;
+    outline:none;
+}
+
+textarea{
+    height:90px;
+    resize:none;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:25px;
+    background:#18A4B8;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    margin-bottom:25px;
+}
+
+button:hover{
+    background:#148A9B;
+}
+
+/* YOUR CONTACT INFO */
+.contact-info{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    font-size:14px;
+    line-height:1.8;
+}
+
+.contact-info a{
+    text-decoration:none;
+    color:#18A4B8;
+    font-weight:bold;
+}
+
+/* RIGHT SIDE */
+.image-section{
+    flex:1;
+    background:#C8D6E5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.image-section img{
+    width:75%;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="form-section">
+        <h1>Contact Me</h1>
+
+        <!-- People will send you message -->
+        <input type="text" placeholder="Your Name" class="input-box">
+        <input type="email" placeholder="Your Email" class="input-box">
+        <textarea placeholder="Write your message..." class="input-box"></textarea>
+
+        <button>Send Message</button>
+
+        <!-- YOUR OWN CONTACT DETAILS -->
+        <div class="contact-info">
+            📞 <b>Phone:</b> +91-9864321177 <br>
+            📧 <b>Email:</b> anamikamalakar321@gmail.com <br>
+            🔗 <b>LinkedIn:</b> 
+            <a href="www.linkedin.com/in/anamikamalakar" target="_blank">
+                View My Profile
+            </a>
+        </div>
+
+    </div>
+
+    <div class="image-section">
+        <img src="https://promarketens.com/wp-content/uploads/2024/07/contact-us-banner-1536x1359-1.webp" alt="contact">
+    </div>
+
+</div>
+
+</body>
+</html>
